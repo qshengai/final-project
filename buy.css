@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+li{list-style: none;}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.containers {
+    display: flex;
+   }
+
+.down {
+    display: flex;
+    align-items: center;
+} 
+
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy, .motion, .order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container_1, .container_2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    padding:0;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_1 li{
+    padding: 10px 10px 5px;
+}
+
+.container_2 li{
+    padding: 12px 10px ;
+}
+
+.containers_1 .value {
+    border: 1px solid #333;
+    width: 200px;
+    height: 1px;
+    background-color: #333;
+}
+
+.container_3{
+    width: 250px;
+    height: 80px;
+    border: 1px solid #333;
+    padding:0;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_3 li{
+    padding: 6px 10px ;
+}
+
+.container_3 li {
+    margin-right:10px  ;
+}
+
+
+.btns{
+        margin: 20px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#value1{
+    float: right;
+}
+
+#value2{
+    float: right;
+}
+
+#value3{
+    float: right;
+}
+
+#value4{
+    float: right;
+}
+
+#total{
+    float: right;
+}
