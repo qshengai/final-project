@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buy.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>shengai's Shop</h1>
+<div class="containers">
+
+    <div class="buy">
+        <p>구매가격</p>
+
+            <ul class="container_1">
+                <li>
+                    <span class="apple">사과</span>
+                    <div id="value1"></div>
+                </li>
+
+                <li>
+                    <span class="orange">오렌지</span>
+                    <div id="value2"></div>
+                </li>
+
+                <li>
+                    <span class="banana">바나나</span>
+                    <div id="value3"></div>
+                </li>
+
+                <li>
+                    <span class="watermelon">수박</span>
+                    <div id="value4"></div>
+                </li>
+
+                <li class="value">
+                    <span><b>총액</b></span>
+                    <div id="total"></div>
+                <li>
+
+            </ul>
+
+    </div>
+
+
+    <div class="motion">
+        <p>구매 방법</p>
+
+        <ul class="container_2">
+            <li><label><input type="radio" name="radio_btn" value="Card">카드결제</label></li>
+            <li><label><input type="radio" name="radio_btn" value="BankTransfer">계좌이체</label></li>
+            <li><label><input type="radio" name="radio_btn" value="MobilePayment">휴대폰결제</label></li>
+            <li><label><input type="radio" name="radio_btn" value="DepositWithoutBankbook">무통장입금</label></li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="down">
+    <div class="order">
+        <p>구매자 정보</p>
+
+        <ul class="container_3">
+            <li><label>이름&nbsp;<input type="text" id="name" placeholder="이름을 입력하세요." /></label></li>
+            <li><label>학번&nbsp;<input type="text" id="number" placeholder="학번을 입력하세요." /></label></li>
+        </ul>
+
+    </div>
+
+
+<div class="btns">
+    <button type="button" onclick="location.href='main.html'">이전</button>
+    <button type="button" onclick="btn_click()">구매</button>
+   
+</div>
+</div>
+
+<script src="buy.js"></script>
+
+
+</body>
+</html>
