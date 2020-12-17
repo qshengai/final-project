@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body oncontextmenu="return false">
+    <h1>shengai's Shop</h1>
+
+    <div class="container_box">
+
+        <div class="kind">
+            <div class="kind1">상품</div>
+            <div class="kind2">가격</div>
+            <div class="kind3">수량</div> 
+        </div>
+
+        <div class="apple container">
+            <a href="#" >
+                <img src="img/apple.jpg" onmousedown="increase1()" border="1" />
+                <span class="apple">사과</span>
+            </a>
+            
+            <p>1000원</p>
+            <div id="value1">0</div>
+        </div>
+
+        <div class="orange container">
+            <a href="#">
+                <img src="img/orange.jpg" onmousedown="increase2()" border="1"/>
+                <span class="orange">오렌지</span>
+            </a>
+            
+            <p>1500원</p>
+
+            <div id="value2">0</div>
+      
+        </div>
+
+        <div class="banana container">
+            <a href="#">
+                <img src="img/banana.jpg" class="banana" border="1"/>
+                <span class="banana">바나나</span>
+            </a>
+            
+            <p>3000원</p>
+      
+            <input type="text" id="value3" placeholder="수량을 입력하세요." />
+        </div>
+
+        <div class="watermelon container">
+            <a href="#">
+                <img src="img/watermelon.jpg" class="watermelon" border="1"/>
+                <span class="watermelon">수박</span>
+            </a>
+            
+            <p>3000원</p>
+      
+            <input type="text" id="value4" placeholder="수량을 입력하세요." />
+        </div>
+
+    </div>
+    
+    <button type="button" onclick="btn_click()">구매</button>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
