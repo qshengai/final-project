@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+li{list-style: none;}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{font-size: 20px;
+font-weight: bold;}
+
+.container {
+    width: 500px;
+    height: 200px;
+    border: 1px solid #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+   }
+
+
+li{
+    display: flex;
+    margin: 5px 0;
+}
+
+.btns{
+    position: relative;
+    left: 275px;
+    margin: 20px;
+}
+
+button {
+margin-top: 10px;
+width: 100px;
+padding: 5px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#name{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#number{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#address{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#total {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#payment{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
